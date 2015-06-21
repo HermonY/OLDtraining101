@@ -11,8 +11,8 @@ namespace ClassLibrary1
         static void Main(string[] args)
         {
             //data source is arrays - normally get this data from database
-            string[] questions = new string[] { "Who are the 2014/2015 champions of Europe?", "Who are the 2014/2015 FA Cup champions?" };
-            string[] answers = new string[] { "Barcelona", "Arsenal" };
+            string[] questions = new string[] { "Who are the 2014/2015 champions of Europe?", "Who are the 2014/2015 FA Cup champions?", "From which team did Steven Gerrard retire?", "Who is Arsenal's record goal scorere?", "Name one of Dennis Bergkamps nicknames?" };
+            string[] answers = new string[] { "Barcelona", "Arsenal", "Liverpool", "Thierry Henry", new string[][] {new string[] {"flying dutchmen", "iceman"}   }};
             ConsoleColor[] colors = new ConsoleColor[] { ConsoleColor.Yellow, ConsoleColor.Magenta };
             int[] whiteList = new int[] { 1, 0 };
 
